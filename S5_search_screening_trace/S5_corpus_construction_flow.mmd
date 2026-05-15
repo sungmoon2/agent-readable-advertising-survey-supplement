@@ -1,0 +1,17 @@
+flowchart TD
+  A["Phase 1 research corpus<br/>104 papers"] --> B["Phase 2 C3/C4/C6 candidates<br/>81 total"]
+  B --> B1["C3 candidates<br/>30"]
+  B --> B2["C4 candidates<br/>21"]
+  B --> B3["C6 candidates<br/>30"]
+  B --> C["PDF collection and verification"]
+  C --> C1["Unanimous / Task-1 PDFs<br/>29"]
+  C --> C2["Majority-vote PDFs collected later<br/>17"]
+  C --> D["Verified additions<br/>45 total"]
+  D --> D1["C3 additions<br/>10"]
+  D --> D2["C4 additions<br/>21"]
+  D --> D3["C6 additions<br/>14"]
+  D --> E["Final registry<br/>149 papers"]
+  E --> F["Core coding set<br/>87 papers"]
+  E --> G["Background set<br/>36 papers"]
+  E --> H["Out-of-scope set<br/>26 papers"]
+  U["Unavailable in local logs:<br/>database-hit count, title/abstract screening count"] -. "not inferred" .-> B

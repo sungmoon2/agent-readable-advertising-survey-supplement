@@ -1,0 +1,42 @@
+{
+  "schema_status": "survey_derived_reference_schema_not_an_industry_standard",
+  "created": "2026-05-14",
+  "field_families": {
+    "ad_identity": {
+      "description": "Identifiers for the ad, campaign, creative, placement, and observation context.",
+      "example_fields": ["ad_id", "campaign_id", "creative_id", "placement_context", "observed_at"]
+    },
+    "sponsor_seller_identity": {
+      "description": "Advertiser, sponsor, seller, merchant, and supply-chain identity where available.",
+      "example_fields": ["advertiser_name", "sponsor_disclosure", "seller_id", "merchant_id", "supply_chain"]
+    },
+    "creative_evidence": {
+      "description": "Evidence extracted from the ad creative and surrounding interface.",
+      "example_fields": ["ocr_spans", "image_regions", "dom_nodes", "accessibility_labels", "landing_page_links"]
+    },
+    "product_offer_facts": {
+      "description": "Offer facts supported by observed creative or linked commerce context.",
+      "example_fields": ["product_name", "price", "discount", "shipping_terms", "expiration"]
+    },
+    "claims": {
+      "description": "Advertising claims requiring grounding, qualification, or policy review.",
+      "example_fields": ["claim_text", "claim_type", "evidence_pointer", "qualification", "confidence"]
+    },
+    "disclosure_provenance": {
+      "description": "Sponsored status, provenance, consent, and authority signals.",
+      "example_fields": ["is_sponsored", "disclosure_text", "provenance_chain", "consent_signal", "authority_proof"]
+    },
+    "policy_risk_signals": {
+      "description": "Detected policy or safety risks at representation level.",
+      "example_fields": ["restricted_category", "deceptive_pattern", "unsafe_instruction", "privacy_risk", "risk_confidence"]
+    },
+    "agent_action_constraints": {
+      "description": "Constraints on what an AI commerce agent may do with the ad-derived representation.",
+      "example_fields": ["allowed_actions", "blocked_actions", "requires_user_confirmation", "escalation_reason"]
+    },
+    "audit_metadata": {
+      "description": "Metadata needed to audit extraction and downstream agent decisions.",
+      "example_fields": ["extractor_model", "model_version", "prompt_id", "uncertainty", "conflict_notes", "review_status"]
+    }
+  }
+}
