@@ -10,7 +10,7 @@ It is intended to support reviewer and reader inspection of the survey registry,
 | Supplement item | Files |
 |---|---|
 | S1 registry and related surveys | 4 CSV files |
-| S2 core coding tables | 2 CSV files |
+| S2 core coding tables | 3 CSV files |
 | S3 background role mapping | 2 CSV files |
 | S4 out-of-scope exclusions | 1 CSV file |
 | S5 search/screening trace | 1 CSV file, 1 Mermaid corpus-construction flow, 1 Markdown trace |
@@ -25,6 +25,7 @@ It is intended to support reviewer and reader inspection of the survey registry,
 - The 149-paper research-corpus registry is provided as `S1_registry_related_surveys/S1_research_corpus_registry_149_english.csv`, derived from the S2 core, S3 background, and S4 out-of-scope tables.
 - No new literature, standard, venue, DOI, author list, or current web update was added during assembly.
 - S5 is a corpus-construction trace for a structured systematic mapping; unavailable database-hit and screening counts are not inferred.
+- S2 includes an author-confirmed multi-coder execution log and row-level coder responsibility fields. This records distributed literature identification/coding by cluster or subset; it does not claim independent double coding, inter-rater reliability, or Cohen's kappa.
 - AARS is a survey-derived reference schema, not an industry standard.
 - S8 is synthetic and is not empirical evidence.
 - S9 is a survey agenda template and is not executed experimental data.
