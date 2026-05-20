@@ -13,7 +13,7 @@
 "21","Xiong 2024","LLaVA-Critic: Learning to Evaluate Multimodal Models","Sec. 10.1 Evaluation","none","Supports discussion of learned VLM evaluation pipelines.","confirmed"
 "22","Ge 2025","MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria","Sec. 10.1 Evaluation","none","Supports fine-grained evaluation using per-sample criteria.","confirmed"
 "47","Lee 2024","Prometheus-Vision: Vision-Language Model Fine-Grained Evaluation","Sec. 10.1 Evaluation","none","Supports discussion of fine-grained VLM evaluation.","confirmed"
-"26","Lu 2024","Can Vision-Language Models Replace Human Annotators: CelebA Case","Sec. 10.1 Evaluation","Sec. 4 Methodology","Supports discussion of annotation cost, scalability, and AI-assisted screening rationale.","confirmed"
+"26","Lu 2024","Can Vision-Language Models Replace Human Annotators: CelebA Case","Sec. 10.1 Evaluation","Sec. 4 Methodology","Supports discussion of annotation cost and scalability in visual-content annotation.","confirmed"
 "8","Parthasarathy 2026","What Makes a Good Generated Image?","Sec. 6.2 C2 Creative Generation","Sec. 10.1 Evaluation","Supports generated-image quality evaluation in the C2 creative-generation/evaluation context.","confirmed"
 "16","Huang 2024","AesExpert: Multi-modality Foundation Model for Aesthetics","Sec. 6.2 C2 Creative Generation","Sec. 10.1 Evaluation","Supports discussion of aesthetic foundation models for ad creative quality evaluation.","confirmed"
 "17","An 2026","Can VLMs Assess Graphic Design Aesthetics?","Sec. 6.2 C2 Creative Generation","none","Directly supports visual-quality assessment for graphic design and ad banners.","confirmed"
